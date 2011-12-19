@@ -1,6 +1,7 @@
 package bla;
 
 import blub.TestClass;
+import blub.YetAnOtherTestClass;
 /**
  * TODO File Description
  */
@@ -17,5 +18,7 @@ public class MainClass
 		System.out.println("Hello Git");
 		
 		System.out.println(new TestClass().test());
+		
+		System.out.println(new YetAnOtherTestClass().test());
 	}
 }
